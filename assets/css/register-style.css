@@ -139,7 +139,9 @@ body {
     background-color: #fff;
     outline: none;
 }
-
+.form-group.floating input:focus ~ i{
+    color: #4a90e2!important;
+}
 .form-group.floating label {
     position: absolute;
     top: 15px;
