@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PyCourse - ثبت نام</title>
+    <link rel="stylesheet" href="assets/css/otp-style.css">
+    <link rel="stylesheet" href="assets/css/login-style.css">
+    <link rel="stylesheet" href="assets/css/register-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="background-animation">
+        <div class="shape"></div>
+        <div class="shape"></div>
+    </div>
+    
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <i class="fab fa-python"></i>
+                <span>PyCourse Academy</span>
+            </div>
+            <h1>ثبت نام در سیستم</h1>
+            <p>برای دسترسی به دوره جنگو حساب کاربری ایجاد کنید</p>
+        </div>
+        
+        <form action="#" class="register-form">
+            <div class="form-group floating">
+                <input type="text" id="username" name="username" required>
+                <label for="username">نام کاربری</label>
+                <i class="fas fa-user"></i>
+                <span class="focus-border"></span>
+            </div>
+            
+            <div class="form-group floating">
+                <input type="email" id="email" name="email" required>
+                <label for="email">آدرس ایمیل</label>
+                <i class="fas fa-envelope"></i>
+                <span class="focus-border"></span>
+            </div>
+            
+            <div class="form-group floating">
+                <input type="tel" id="phone" name="phone" required>
+                <label for="phone">شماره تماس</label>
+                <i class="fas fa-phone"></i>
+                <span class="focus-border"></span>
+            </div>
+            
+            <div class="form-group floating">
+                <input type="password" id="password" name="password" required>
+                <label for="password">رمز عبور</label>
+                <i class="fas fa-lock"></i>
+                <span class="focus-border"></span>
+                <button type="button" class="toggle-password">
+                    <i class="fas fa-eye"></i>
+                </button>
+            </div>
+            
+            <div class="form-group floating">
+                <input type="password" id="confirm_password" name="confirm_password" required>
+                <label for="confirm_password">تکرار رمز عبور</label>
+                <i class="fas fa-lock"></i>
+                <span class="focus-border"></span>
+                <button type="button" class="toggle-password">
+                    <i class="fas fa-eye"></i>
+                </button>
+            </div>
+            
+            <button type="submit" class="submit-btn">
+                <span>ثبت نام</span>
+                <i class="fas fa-arrow-left"></i>
+            </button>
+            
+            <div class="login-link">
+                حساب کاربری دارید؟ <a href="login.html">وارد شوید</a>
+            </div>
+        </form>
+    </div>
+    
+    <script src="assets/js/register-scripts.js"></script>
+</body>
+</html>
